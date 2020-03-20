@@ -1,0 +1,12 @@
+git status //查看当前仓库状态
+git diff xxx //查看之前修改了什么
+git diff HEAD -- xxx //查看工作区和版本库里面最新版本的区别
+git reset --hard HEAD^ //回退到上一个版本
+git reset --hard xxx //指定回退到哪个版本号xxx
+git checkout -- xxx //文件回到最近一次git commit或git add时的状态
+rm xxx //删除文件
+git rm xxx //确定删除文件
+git checkout -- xxx //删错了重新恢复
+git stash //保存工作现场
+git stash list //查看现场清单
+git stash pop //恢复现场的同时把stash内容也删了
