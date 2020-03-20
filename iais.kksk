@@ -1,0 +1,3 @@
+git config --global color.ui true //让Git显示颜色
+git config --global alias.lg log //使用alias将git log自定义为git lg
+git config --list //查看git配置清单
